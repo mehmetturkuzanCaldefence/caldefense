@@ -35,7 +35,10 @@ img{max-width:100%;display:block}
   border-bottom:1px solid var(--line);
 }
 /* Make nav breathe */
-.nav{
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 18px;
 }
 
