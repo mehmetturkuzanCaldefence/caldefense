@@ -194,3 +194,35 @@ textarea.input{min-height:120px;resize:vertical}
   .hero h1{font-size:36px}
   .hero{padding: 48px 0;}
 }
+/* Hero Image Styling */
+.hero-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 350px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.hero-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-caption {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: rgba(15, 23, 42, 0.85);
+  padding: 10px 16px;
+  font-size: 12px;
+  color: #94a3b8;
+  font-weight: 500;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Select styling for corporate RFQ forms */
+select.input {
+  appearance: none;
+  background: var(--panel);
+  cursor: pointer;
+}
